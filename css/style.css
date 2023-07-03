@@ -1,0 +1,18 @@
+body {
+    background: linear-gradient(grey, rgb(0, 0, 0));
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.child {    
+    background: linear-gradient(grey, rgb(255, 255, 255));
+    width: 200px;
+    background: -moz-radial-gradient(black);
+    height: 200px;
+    margin: 20px;
+    align-items: center;
+}
